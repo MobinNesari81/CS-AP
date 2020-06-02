@@ -1,6 +1,6 @@
 # Site settings
 course_name: Advanced Programming
-course_description: "Advanced Programming Course, Spring 1401-1402"
+course_description: "Advanced Programming Course, Spring 2023"
 course_semester: "Spring 2023"
 
 baseurl: "/CS-AP" # the subpath of your site, e.g. /blog/
