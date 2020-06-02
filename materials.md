@@ -4,17 +4,16 @@ title: Materials
 permalink: /materials/
 ---
 
-{% include image.html url="/_images/cover2.jpg" width=175 align="right" %}
+{% include image.html url="/_images/big-java.jpeg" width=175 align="right" %}
 
 ## Book
 
-Alan Turing and Noam Chomsky: Very Famous Book
+Cay Horstmann : Big Java
 
 ## Additional Course Materials
 
-* If you are not familiar with Python programming, use any online tutorial to get a handle of it.
-* [Material #1](http://www.example.com/): how a computer chess player thinks!
-* [Material #2](http://www.example.com/): how a computer chess player thinks!
-* [Material #3](http://www.example.com/): how a computer chess player thinks!
-* [Material #4](http://www.example.com/): how a computer chess player thinks!
-* [Material #5](http://www.example.com/): how a computer chess player thinks!
+You can use these additional materials for better performance in your course:
+* [W3schools](https://www.w3schools.com/java/default.asp): Full tutorial for Java!
+* [GIT Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf): Git cheat sheet which you can use for fast recap!
+* [Java Beginners Course](https://youtube.com/playlist?list=PLFE2CE09D83EE3E28): Java's beginner course by TheNewBoston!
+* [Java Intermediate Course](https://youtube.com/playlist?list=PL27BCE863B6A864E3): Java's intermediate course by TheNewBoston!
