@@ -3,8 +3,6 @@ type: assignment
 date: 2023-02-23T00:00:00
 title: 'Assignment #2 - Weather Broadcasting! '
 pdf: https://google.com/
-# attachment: /static_files/assignments/asg.zip
-# solutions: /static_files/assignments/asg_solutions.pdf
 due_event: 
     type: due
     date: 2023-02-29T23:59:59
