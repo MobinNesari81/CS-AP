@@ -5,7 +5,7 @@ title: Database
 tldr: "In this session, database will be discussed."
 thumbnail: /static_files/thumbnails/database.png
 links: 
-    - url: /static_files/presentations/Lecture_13.pdf|
+    - url: /static_files/presentations/Lecture_13.pdf
       name: Slides
 ---
 **Suggested Readings:**

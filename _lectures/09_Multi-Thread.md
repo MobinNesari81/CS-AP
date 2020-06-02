@@ -5,7 +5,7 @@ title: Multi-Thread Programming
 tldr: "In this session, Multi-Thread will be discussed."
 thumbnail: /static_files/thumbnails/Multi-Thread.png
 links: 
-    - url: /static_files/presentations/Lecture_11.pdf|
+    - url: /static_files/presentations/Lecture_11.pdf
       name: Slides
 ---
 **Suggested Readings:**

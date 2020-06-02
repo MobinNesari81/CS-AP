@@ -5,7 +5,7 @@ title: Network Programming
 tldr: "In this session, Network Programming will be discussed."
 thumbnail: /static_files/thumbnails/network.png
 links: 
-    - url: /static_files/presentations/Lecture_12.pdf|
+    - url: /static_files/presentations/Lecture_12.pdf
       name: Slides
 ---
 **Suggested Readings:**
