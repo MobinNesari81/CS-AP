@@ -1,4 +1,6 @@
 policies:
-  - You have free 8 late days.
-  - You can use late days for assignments. A late day extends the deadline 24 hours.
-  - Once you have used all 8 late days, the penalty is 10% for each additional late day.
+  - Deadlines won't extend in any circumstances
+  - You have free 5 late days.
+  - You can use late days for assignments and not for projects. A late day extends the deadline 24 hours.
+  - Once you have used all 5 late days, the penalty is 10% for each additional late day.
+  - At the end of semester, for students who didn't use their late days, extra marks will be considered.
