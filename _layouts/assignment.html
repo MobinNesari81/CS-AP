@@ -11,11 +11,11 @@ title: page.title
 
   <div>
     {% if page.due_event %}
-    <span style="font-weight: bold">Due Date: {{ page.due | date: site.dateformat }} {{ page.due_event.date | date: "%H:%M" }}</span>
+    <span style="font-weight: bold">Due Date: {{ page.due | date: site.dateformat }} {{ page.due_event.date | date: "%H:%M:%S" }}</span>
     {% endif %}
     <p style="font-weight: bold">Download
       {% if page.pdf %}
-      [<a href="{{ page.pdf | prepend: site.baseurl }}">problems</a>]
+      [<a href="{{ page.pdf }}">problems</a>]
       {% endif %}
       {% if page.attachment %}
       [<a href="{{ page.attachment | prepend: site.baseurl }}">attachment</a>]

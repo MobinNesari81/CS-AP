@@ -13,5 +13,9 @@ due_event:
 
 # Description:
 In this assignment, we challenge your Java implementation and syntax knowledge.
+
+
 There are several questions in Quera which you should answer them. Make sure to use all your algorithm and implementation knowledge which you gathered over last semester and recent class sessions.
+
+
 Happy Coding !
