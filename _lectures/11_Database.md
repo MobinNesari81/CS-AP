@@ -1,6 +1,6 @@
 ---
 type: lecture
-# date: 2018-09-16T8:00:00+4:30
+date: 2023-03-12
 title: Database
 tldr: "In this session, database will be discussed."
 thumbnail: /static_files/thumbnails/database.png

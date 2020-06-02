@@ -1,6 +1,6 @@
 ---
 type: lecture
-# date: 2018-09-16T8:00:00+4:30
+date: 2023-02-28
 title: Principles of OOP
 tldr: "In this session, main principles in object-oriented programming will be discussed."
 thumbnail: /static_files/thumbnails/OOP.png

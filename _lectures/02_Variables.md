@@ -1,6 +1,6 @@
 ---
 type: lecture
-# date: 2018-09-16T8:00:00+4:30
+date: 2023-02-12
 title: Variables, Operators and Strings
 tldr: "In this session, variables and operators will be discussed. String will be taught too."
 thumbnail: /static_files/thumbnails/variables.jpg

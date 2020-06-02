@@ -1,6 +1,6 @@
 ---
 type: lecture
-# date: 2018-09-16T8:00:00+4:30
+date: 2018-03-05
 title: Multi-Thread Programming
 tldr: "In this session, Multi-Thread will be discussed."
 thumbnail: /static_files/thumbnails/Multi-Thread.png

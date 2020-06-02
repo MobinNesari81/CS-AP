@@ -1,6 +1,6 @@
 ---
 type: lecture
-# date: 2018-09-16T8:00:00+4:30
+date: 2023-02-07
 title: Algorithm and Basic Java syntax
 tldr: "In this lecture, famous algorithms and basic java syntax will be discussed."
 thumbnail: /static_files/thumbnails/algorithm.png

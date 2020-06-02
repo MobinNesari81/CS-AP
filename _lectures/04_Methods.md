@@ -1,6 +1,6 @@
 ---
 type: lecture
-# date: 2018-09-16T8:00:00+4:30
+date: 2023-02-19
 title: Methods and Functions
 tldr: "In this session, methods and functions will be discussed."
 thumbnail: /static_files/thumbnails/methods.png
