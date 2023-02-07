@@ -4,10 +4,9 @@ instructor:
     webpage: https://scholar.google.com/citations?user=ZisNRVMAAAAJ&hl=en
 
 
-Co-instructor:
+Coinstructor:
   - name: Arsham Gholamzadeh Khoee
-      # profile_pic: /_images/pp/arsham.jpeg
-      profile_pic: /_images/pp/Blank.png
+      profile_pic: /_images/pp/arsham.jpeg
       webpage: https://www.linkedin.com/in/arsham-khoee?originalSubdomain=ir
 
 
