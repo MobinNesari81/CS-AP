@@ -34,7 +34,7 @@ layout: default
 
             <div class="profile-pic-gallary ">
                 <h2>Instructor</h2>
-                {% for ins in site.data.people.instructors %}
+                {% for ins in site.data.people.instructor %}
                 <div class="image--cover-container">
                     <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
                     {% if ins.webpage %}
