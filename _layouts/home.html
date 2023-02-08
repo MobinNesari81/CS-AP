@@ -44,8 +44,11 @@ layout: default
                     {% endif %}
                 </div>
                 {% endfor %}
+            </div>
 
-                <h2>Co-instructor</h2>
+
+            <div class="profile-pic-gallary ">
+                <h2>Co-Instructor</h2>
                 {% for ins in site.data.people.Coinstructor %}
                 <div class="image--cover-container">
                     <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
@@ -56,7 +59,6 @@ layout: default
                     {% endif %}
                 </div>
                 {% endfor %}
-
             </div>
         </div>
 
@@ -73,7 +75,9 @@ layout: default
                     {% endif %}
                 </div>
                 {% endfor %}
-
+            <div>
+            
+            <div class="profile-pic-gallary ">
                 <h2>Teaching Assistants</h2>
                 {% for ta in site.data.people.teaching_assistants %}
                 <div class="image--cover-container">
