@@ -9,12 +9,13 @@ Coinstructor:
     profile_pic: /_images/pp/arsham.jpeg
     webpage: https://www.linkedin.com/in/arsham-khoee?originalSubdomain=ir
 
-
-teaching_assistants:
+ChiefTeachingAssistant: 
   - name: Mobin Nesari
     profile_pic: /_images/pp/mobin.jpg
     webpage: https://www.linkedin.com/in/mobin-nesari/
 
+
+teaching_assistants:
   - name: Mohammad Mehdi Begmaz
     profile_pic: /_images/pp/Blank.png
 
