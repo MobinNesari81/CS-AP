@@ -290,6 +290,14 @@ a.tosu {
         border-bottom: none;
     }
 
+    .table-row-raw_event {
+        background-color: #78f05a;
+        border-color: whitesmoke;
+        border-width: 0.1em;
+        border-style: solid;
+        border-bottom: none;
+    }
+
     .table-row-assignment {
         background-color: #d9edf7;
     }
@@ -299,7 +307,7 @@ a.tosu {
     }
 
     .table-row-exam {
-        background-color: #eb4949;
+        background-color: #f2dede;
     }
 
     .col-1 {
@@ -400,6 +408,7 @@ a.tosu {
 
 .profile-pic-gallary {
     padding: 0px;
+    display: inline;
 }
 
 .image--cover-container {
