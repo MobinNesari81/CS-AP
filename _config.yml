@@ -7,7 +7,9 @@ baseurl: "/CS-AP" # the subpath of your site, e.g. /blog/
 url: "https://MobinNesari81.github.io" # the base hostname & protocol for your site
 
 schoolname: "Shahid Beheshti University"
-schoolurl: "https://en.sbu.ac.ir/" 
+schoolurl: "https://en.sbu.ac.ir/"
+
+favicon_ico: "java.ico"
 
 address: |
     Shahid Beheshti University
