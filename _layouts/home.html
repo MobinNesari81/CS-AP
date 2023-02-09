@@ -59,6 +59,20 @@ layout: default
                 </div>
                 {% endfor %}
             </div>
+
+            <div class="profile-pic-gallary">
+                <h2>Chief Teaching Assistant</h2>
+                {% for ta in site.data.people.ChiefTeachingAssistant %}
+                <div class="image--cover-container">
+                    <img src="{{ta.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                    {% if ta.webpage %}
+                    <p><a href="{{ ta.webpage }}">{{ta.name}}</a></p>
+                    {% else %}
+                    <p>{{ta.name}}</p>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
         </div>
 
         <div style="width:70%; float: left">
