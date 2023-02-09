@@ -36,7 +36,7 @@ layout: default
                 <p>{{site.data.people.instructor.name}}</p>
             </div> -->
 
-            <div class="profile-pic-gallary" style="display: inline;">
+            <div class="profile-pic-gallary">
                 <h2>Instructor</h2>
                 {% for ins in site.data.people.instructor %}
                 <div class="image--cover-container">
@@ -48,9 +48,10 @@ layout: default
                     {% endif %}
                 </div>
                 {% endfor %}
+            </div>
             
 
-
+            <div class="profile-pic-gallary">
                 <h2>Chief Project Referee</h2>
                 {% for ins in site.data.people.Chief_Project_Referee%}
                 <div class="image--cover-container">
@@ -62,9 +63,10 @@ layout: default
                     {% endif %}
                 </div>
                 {% endfor %}
+            </div>
 
 
-
+            <div class="profile-pic-gallary">
                 <h2>Chief Teaching Assistant</h2>
                 {% for ta in site.data.people.ChiefTeachingAssistant %}
                 <div class="image--cover-container">
@@ -76,6 +78,7 @@ layout: default
                     {% endif %}
                 </div>
                 {% endfor %}
+            </div>
 
         </div>
 
