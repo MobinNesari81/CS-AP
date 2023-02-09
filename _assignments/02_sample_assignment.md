@@ -1,14 +1,14 @@
 ---
 type: assignment
-date: 2023-02-16T0:00:00+4:30
-title: 'Assignment #1 - Java Warmup! '
+date: 2023-02-23T0:00:00+4:30
+title: 'Assignment #2 - Weather Broadcasting! '
 pdf: https://google.com/
 # attachment: /static_files/assignments/asg.zip
 # solutions: /static_files/assignments/asg_solutions.pdf
 due_event: 
     type: due
-    date: 2023-02-22T9:59:59+4:30
-    description: 'Assignment #1 due'
+    date: 2023-02-29T9:59:59+4:30
+    description: 'Assignment #2 due'
 ---
 
 # Description:
