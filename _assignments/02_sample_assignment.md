@@ -1,6 +1,6 @@
 ---
 type: assignment
-date: 2023-02-23T0:00:00+4:30
+date: 2023-02-11T0:00:00+4:30
 title: <Assignment #2>
 
 # optional 
@@ -12,7 +12,7 @@ hide_from_announcments: true
 
 due_event: 
     type: due
-    date: 2023-02-29T0:00:00+4:30
+    date: 2023-02-18T0:00:00+4:30
     description: 'Assignment #2 due'
 ---
 <!-- Other additional contents using markdown -->
