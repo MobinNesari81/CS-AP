@@ -85,7 +85,7 @@ layout: default
 
             <div>
                 <div class="profile-pic-gallary">
-                    {% ins = site.data.people.instructor.get(0) %}
+                    {% ins = site.data.people.teaching_assistants[0] %}
                     <div class="image--cover-container">
                         <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
                         {% if ins.webpage %}
@@ -98,7 +98,7 @@ layout: default
 
 
                 <div class="profile-pic-gallary">
-                    {% ins = site.data.people.instructor[1] %}
+                    {% ins = site.data.people.teaching_assistants[1] %}
                     <div class="image--cover-container">
                         <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
                         {% if ins.webpage %}
@@ -111,62 +111,7 @@ layout: default
 
 
                 <div class="profile-pic-gallary">
-                    {% ins = site.data.people.instructor[2] %}
-                    <div class="image--cover-container">
-                        <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
-                        {% if ins.webpage %}
-                        <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
-                        {% else %}
-                        <p>{{ins.name}}</p>
-                        {% endif %}
-                    </div>
-                </div>
-
-
-
-                <div class="profile-pic-gallary">
-                    {% ins = site.data.people.instructor[3] %}
-                    <div class="image--cover-container">
-                        <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
-                        {% if ins.webpage %}
-                        <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
-                        {% else %}
-                        <p>{{ins.name}}</p>
-                        {% endif %}
-                    </div>
-                </div>
-            </div>
-
-
-            <div>
-                <div class="profile-pic-gallary">
-                    {% ins = site.data.people.instructor[4] %}
-                    <div class="image--cover-container">
-                        <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
-                        {% if ins.webpage %}
-                        <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
-                        {% else %}
-                        <p>{{ins.name}}</p>
-                        {% endif %}
-                    </div>
-                </div>
-
-
-                <div class="profile-pic-gallary">
-                    {% ins = site.data.people.instructor[5] %}
-                    <div class="image--cover-container">
-                        <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
-                        {% if ins.webpage %}
-                        <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
-                        {% else %}
-                        <p>{{ins.name}}</p>
-                        {% endif %}
-                    </div>
-                </div>
-
-
-                <div class="profile-pic-gallary">
-                    {% ins = site.data.people.instructor[6] %}
+                    {% ins = site.data.people.teaching_assistants[2] %}
                     <div class="image--cover-container">
                         <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
                         {% if ins.webpage %}
@@ -180,7 +125,7 @@ layout: default
 
 
                 <div class="profile-pic-gallary">
-                    {% ins = site.data.people.instructor[7] %}
+                    {% ins = site.data.people.teaching_assistants[3] %}
                     <div class="image--cover-container">
                         <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
                         {% if ins.webpage %}
@@ -195,7 +140,7 @@ layout: default
 
             <div>
                 <div class="profile-pic-gallary">
-                    {% ins = site.data.people.instructor[8] %}
+                    {% ins = site.data.people.teaching_assistants[4] %}
                     <div class="image--cover-container">
                         <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
                         {% if ins.webpage %}
@@ -208,7 +153,7 @@ layout: default
 
 
                 <div class="profile-pic-gallary">
-                    {% ins = site.data.people.instructor[9] %}
+                    {% ins = site.data.people.teaching_assistants[5] %}
                     <div class="image--cover-container">
                         <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
                         {% if ins.webpage %}
@@ -221,7 +166,7 @@ layout: default
 
 
                 <div class="profile-pic-gallary">
-                    {% ins = site.data.people.instructor[10] %}
+                    {% ins = site.data.people.teaching_assistants[6] %}
                     <div class="image--cover-container">
                         <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
                         {% if ins.webpage %}
@@ -235,7 +180,7 @@ layout: default
 
 
                 <div class="profile-pic-gallary">
-                    {% ins = site.data.people.instructor[11] %}
+                    {% ins = site.data.people.teaching_assistants[7] %}
                     <div class="image--cover-container">
                         <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
                         {% if ins.webpage %}
@@ -250,7 +195,7 @@ layout: default
 
             <div>
                 <div class="profile-pic-gallary">
-                    {% ins = site.data.people.instructor[12] %}
+                    {% ins = site.data.people.teaching_assistants[8] %}
                     <div class="image--cover-container">
                         <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
                         {% if ins.webpage %}
@@ -263,7 +208,7 @@ layout: default
 
 
                 <div class="profile-pic-gallary">
-                    {% ins = site.data.people.instructor[13] %}
+                    {% ins = site.data.people.teaching_assistants[9] %}
                     <div class="image--cover-container">
                         <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
                         {% if ins.webpage %}
@@ -276,7 +221,36 @@ layout: default
 
 
                 <div class="profile-pic-gallary">
-                    {% ins = site.data.people.instructor[14] %}
+                    {% ins = site.data.people.teaching_assistants[10] %}
+                    <div class="image--cover-container">
+                        <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                        {% if ins.webpage %}
+                        <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
+                        {% else %}
+                        <p>{{ins.name}}</p>
+                        {% endif %}
+                    </div>
+                </div>
+
+
+
+                <div class="profile-pic-gallary">
+                    {% ins = site.data.people.teaching_assistants[11] %}
+                    <div class="image--cover-container">
+                        <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                        {% if ins.webpage %}
+                        <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
+                        {% else %}
+                        <p>{{ins.name}}</p>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="profile-pic-gallary">
+                    {% ins = site.data.people.teaching_assistants[12] %}
                     <div class="image--cover-container">
                         <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
                         {% if ins.webpage %}
@@ -289,7 +263,33 @@ layout: default
 
 
                 <div class="profile-pic-gallary">
-                    {% ins = site.data.people.instructor[15] %}
+                    {% ins = site.data.people.teaching_assistants[13] %}
+                    <div class="image--cover-container">
+                        <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                        {% if ins.webpage %}
+                        <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
+                        {% else %}
+                        <p>{{ins.name}}</p>
+                        {% endif %}
+                    </div>
+                </div>
+
+
+                <div class="profile-pic-gallary">
+                    {% ins = site.data.people.teaching_assistants[14] %}
+                    <div class="image--cover-container">
+                        <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                        {% if ins.webpage %}
+                        <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
+                        {% else %}
+                        <p>{{ins.name}}</p>
+                        {% endif %}
+                    </div>
+                </div>
+
+
+                <div class="profile-pic-gallary">
+                    {% ins = site.data.people.teaching_assistants[15] %}
                     <div class="image--cover-container">
                         <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
                         {% if ins.webpage %}
