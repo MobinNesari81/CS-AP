@@ -86,13 +86,12 @@ layout: default
             <div>
                 <div class="profile-pic-gallary">
                     <h2>teaching_assistants</h2>
-                    {ins = site.data.people.teaching_assistants[0]}
                     <div class="image--cover-container">
-                        <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
-                        {% if ins.webpage %}
-                        <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
+                        <img src="{{site.data.people.teaching_assistants[0].profile_pic | prepend: site.baseurl }}" class="image--cover">
+                        {% if site.data.people.teaching_assistants[0].webpage %}
+                        <p><a href="{{ site.data.people.teaching_assistants[0].webpage }}">{{site.data.people.teaching_assistants[0].name}}</a></p>
                         {% else %}
-                        <p>{{ins.name}}</p>
+                        <p>{{site.data.people.teaching_assistants[0].name}}</p>
                         {% endif %}
                     </div>
                 </div>
