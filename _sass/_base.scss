@@ -412,14 +412,18 @@ a.tosu {
 }
 
 .image--cover-container {
-    width: 33%;
-    float: left;
+    // width: 33%;
+    // float: left;
     text-align: center;
-    margin: 0px;
-    margin-right: 40px;
+    margin: auto;
+    // margin-right: 40px;
     height: 18vh;
-    margin-top: 12px;
-    margin-bottom: 35px;
+    // margin-top: 12px;
+    // margin-bottom: 35px;
+
+    p {
+        margin-top: 10%;
+    }
 }
 
 .image--cover {
@@ -520,23 +524,24 @@ a.tosu {
 }
 
 #leftbox {
-    // float:left;
+    float:left;
     width:25%;
     height:280px;
-    // text-align: center;
+    text-align: center;
 }
 #middlebox{
-    // float:left;
-    width:50%;
+    float:left;
+    width:40%;
     height:280px;
-    // text-align: center;
+    text-align: center;
 }
 #rightbox{
-    // float:right;
+    float:left;
     width:25%;
     height:280px;
-    // text-align: center;
+    text-align: center;
 }
-h1{
-    text-align:center;
-}
+
+// h1{
+//     text-align:center;
+// }
