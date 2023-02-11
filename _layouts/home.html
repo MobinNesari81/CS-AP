@@ -28,16 +28,21 @@ layout: default
     <h2>Team</h2>
 
     <div id = "boxes">
-        <h1>GeeksforGeeks</h1>
          
         <div id = "leftbox">
-            <h2>Learn:</h2>
-            It is a good platform to learn programming.
-            It is an educational website. Prepare for
-            the Recruitment drive  of product based
-            companies like Microsoft, Amazon, Adobe
-            etc with a free online placement preparation
-            course.
+            <div class="profile-pic-gallary">
+                <h2>Instructor</h2>
+                {% for ins in site.data.people.instructor %}
+                <div class="image--cover-container">
+                    <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                    {% if ins.webpage %}
+                    <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
+                    {% else %}
+                    <p>{{ins.name}}</p>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
         </div>
          
         <div id = "middlebox">
