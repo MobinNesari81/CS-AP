@@ -85,7 +85,7 @@ layout: default
 
             <div>
                 <div class="profile-pic-gallary">
-                    {% ins = site.data.people.teaching_assistants[0] %}
+                    {% for ins in site.data.people.instructor %}
                     <div class="image--cover-container">
                         <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
                         {% if ins.webpage %}
@@ -94,6 +94,7 @@ layout: default
                         <p>{{ins.name}}</p>
                         {% endif %}
                     </div>
+                    {% endfor %}
                 </div>
 
 
@@ -301,7 +302,7 @@ layout: default
 <!--                </div>-->
 
 
-<!--            </div>-->
+            </div>
         </div>
     </div>
 </div>
