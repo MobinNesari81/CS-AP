@@ -28,33 +28,53 @@ layout: default
     <h2>Team</h2>
 
     <div id = "boxes">
-        <h1>GeeksforGeeks</h1>
          
         <div id = "leftbox">
-            <h2>Learn:</h2>
-            It is a good platform to learn programming.
-            It is an educational website. Prepare for
-            the Recruitment drive  of product based
-            companies like Microsoft, Amazon, Adobe
-            etc with a free online placement preparation
-            course.
+            <div class="profile-pic-gallary">
+                <h2>Instructor</h2>
+                {% for ins in site.data.people.instructor %}
+                <div class="image--cover-container">
+                    <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                    {% if ins.webpage %}
+                    <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
+                    {% else %}
+                    <p>{{ins.name}}</p>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
         </div>
          
         <div id = "middlebox">
-            <h2>GeeksforGeeks:</h2>
-            The course focuses on various MCQ's & Coding
-            question likely to be asked in the interviews
-            & make your upcoming placement season efficient
-            and successful.
+            <div class="profile-pic-gallary">
+                <h2>Chief Project Referee</h2>
+                {% for ins in site.data.people.Chief_Project_Referee%}
+                <div class="image--cover-container">
+                    <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                    {% if ins.webpage %}
+                    <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
+                    {% else %}
+                    <p>{{ins.name}}</p>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
         </div>
          
         <div id = "rightbox">
-            <h2>Contribute:</h2>
-            Any geeks can help other geeks by writing
-            articles on the GeeksforGeeks, publishing
-            articles follow few steps that are Articles
-            that need little modification/improvement
-            from reviewers are published first.
+            <div class="profile-pic-gallary">
+                <h2>Chief Project Referee</h2>
+                {% for ins in site.data.people.Chief_Project_Referee%}
+                <div class="image--cover-container">
+                    <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                    {% if ins.webpage %}
+                    <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
+                    {% else %}
+                    <p>{{ins.name}}</p>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
         </div>
     </div>
 
