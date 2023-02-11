@@ -520,19 +520,22 @@ a.tosu {
 }
 
 #leftbox {
-    float:left;
+    // float:left;
     width:25%;
     height:280px;
+    text-align: center;
 }
 #middlebox{
-    float:left;
+    // float:left;
     width:50%;
     height:280px;
+    text-align: center;
 }
 #rightbox{
-    float:right;
+    // float:right;
     width:25%;
     height:280px;
+    text-align: center;
 }
 h1{
     text-align:center;
