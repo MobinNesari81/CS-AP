@@ -11,7 +11,7 @@ due_event:
     description: 'Assignment #1 due'
 ---
 
-# Description:
+# Assignment Description:
 In this assignment, we challenge your Java implementation and syntax knowledge.
 
 
