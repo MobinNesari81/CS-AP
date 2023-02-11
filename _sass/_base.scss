@@ -416,6 +416,7 @@ a.tosu {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     margin: auto;
     // margin-right: 40px;
     height: 18vh;
@@ -548,6 +549,6 @@ a.tosu {
 .ta-box{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
