@@ -44,17 +44,17 @@ layout: default
                 {% endfor %}
             </div>
         </div>
-         
+
         <div id = "middlebox">
             <div class="profile-pic-gallary">
-                <h2>Chief Project Referee</h2>
-                {% for ins in site.data.people.Chief_Project_Referee%}
+                <h2>Chief Teaching Assistant</h2>
+                {% for ta in site.data.people.ChiefTeachingAssistant %}
                 <div class="image--cover-container">
-                    <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
-                    {% if ins.webpage %}
-                    <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
+                    <img src="{{ta.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                    {% if ta.webpage %}
+                    <p><a href="{{ ta.webpage }}">{{ta.name}}</a></p>
                     {% else %}
-                    <p>{{ins.name}}</p>
+                    <p>{{ta.name}}</p>
                     {% endif %}
                 </div>
                 {% endfor %}
@@ -76,6 +76,8 @@ layout: default
                 {% endfor %}
             </div>
         </div>
+         
+        
     </div>
 
     <div>
