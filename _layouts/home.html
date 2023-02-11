@@ -86,7 +86,7 @@ layout: default
             <div>
                 <div class="profile-pic-gallary">
                     <h2>teaching_assistants</h2>
-                    {% for ins in site.data.people.teaching_assistants %}
+                    {% ins = site.data.people.teaching_assistants[0] %}
                     <div class="image--cover-container">
                         <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
                         {% if ins.webpage %}
