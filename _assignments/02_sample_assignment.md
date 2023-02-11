@@ -1,19 +1,18 @@
 ---
 type: assignment
-date: 2023-02-23T00:00:00
-title: 'Assignment #2 - Weather Broadcasting! '
+date: 2023-02-12T0:00:00+4:30
+title: <Assignment #2>
+
+# optional 
 pdf: https://google.com/
+
+# optional
+# set it to true if you don't want this assignment to appear in the announcements section
+hide_from_announcments: true
+
 due_event: 
     type: due
-    date: 2023-02-29T23:59:59
+    date: 2023-02-19T0:00:00+4:30
     description: 'Assignment #2 due'
 ---
-
-# Description:
-In this assignment, we challenge your Java implementation and syntax knowledge.
-
-
-There are several questions in Quera which you should answer them. Make sure to use all your algorithm and implementation knowledge which you gathered over last semester and recent class sessions.
-
-
-Happy Coding !
+<!-- Other additional contents using markdown -->
