@@ -407,12 +407,14 @@ a.tosu {
 }
 
 .profile-pic-gallary {
-    padding: 0px;
+    padding: 5px;
 }
 
 .image--cover-container {
     // width: 33%;
     // float: left;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     margin: auto;
     // margin-right: 40px;
@@ -421,7 +423,6 @@ a.tosu {
     // margin-bottom: 35px;
 
     p {
-        margin-top: 100%;
     }
 }
 
@@ -547,6 +548,6 @@ a.tosu {
 .ta-box{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: start;
+    justify-content: space-around;
+    align-items: center;
 }
