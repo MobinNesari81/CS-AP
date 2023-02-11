@@ -82,16 +82,10 @@ layout: default
 
     <div>
         <div style="width:70%; float: left">
-            <!-- float: left -->
-            <!-- <h2>Instructors</h2> -->
-            <!-- <div class="image--cover-container">
-                <img src="{{site.data.people.instructor.profile_pic | prepend: site.baseurl }}" class="image--cover">
-                <p>{{site.data.people.instructor.name}}</p>
-            </div> -->
+
             <div>
                 <div class="profile-pic-gallary">
-                    <h2>Instructor</h2>
-                    {% for ins in site.data.people.instructor %}
+                    {% ins = site.data.people.instructor[0] %}
                     <div class="image--cover-container">
                         <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
                         {% if ins.webpage %}
@@ -100,13 +94,11 @@ layout: default
                         <p>{{ins.name}}</p>
                         {% endif %}
                     </div>
-                    {% endfor %}
                 </div>
 
 
                 <div class="profile-pic-gallary">
-                    <h2>Chief Project Referee</h2>
-                    {% for ins in site.data.people.Chief_Project_Referee%}
+                    {% ins = site.data.people.instructor[1] %}
                     <div class="image--cover-container">
                         <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
                         {% if ins.webpage %}
@@ -115,46 +107,40 @@ layout: default
                         <p>{{ins.name}}</p>
                         {% endif %}
                     </div>
-                    {% endfor %}
                 </div>
 
 
                 <div class="profile-pic-gallary">
-                    <h2>Chief Teaching Assistant</h2>
-                    {% for ta in site.data.people.ChiefTeachingAssistant %}
+                    {% ins = site.data.people.instructor[2] %}
                     <div class="image--cover-container">
-                        <img src="{{ta.profile_pic | prepend: site.baseurl }}" class="image--cover">
-                        {% if ta.webpage %}
-                        <p><a href="{{ ta.webpage }}">{{ta.name}}</a></p>
+                        <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                        {% if ins.webpage %}
+                        <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
                         {% else %}
-                        <p>{{ta.name}}</p>
+                        <p>{{ins.name}}</p>
                         {% endif %}
                     </div>
-                    {% endfor %}
                 </div>
 
 
 
-                <div style="width:70%; float: left">
-                    <div class="profile-pic-gallary">
-                        <h2>Chief Project Referee</h2>
-                        {% for ins in site.data.people.Chief_Project_Referee%}
-                        <div class="image--cover-container">
-                            <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
-                            {% if ins.webpage %}
-                            <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
-                            {% else %}
-                            <p>{{ins.name}}</p>
-                            {% endif %}
-                        </div>
-                        {% endfor %}
+                <div class="profile-pic-gallary">
+                    {% ins = site.data.people.instructor[4] %}
+                    <div class="image--cover-container">
+                        <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                        {% if ins.webpage %}
+                        <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
+                        {% else %}
+                        <p>{{ins.name}}</p>
+                        {% endif %}
                     </div>
                 </div>
             </div>
+
+
             <div>
                 <div class="profile-pic-gallary">
-                    <h2>Instructor</h2>
-                    {% for ins in site.data.people.instructor %}
+                    {% ins = site.data.people.instructor[5] %}
                     <div class="image--cover-container">
                         <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
                         {% if ins.webpage %}
@@ -163,13 +149,11 @@ layout: default
                         <p>{{ins.name}}</p>
                         {% endif %}
                     </div>
-                    {% endfor %}
                 </div>
 
 
                 <div class="profile-pic-gallary">
-                    <h2>Chief Project Referee</h2>
-                    {% for ins in site.data.people.Chief_Project_Referee%}
+                    {% ins = site.data.people.instructor[6] %}
                     <div class="image--cover-container">
                         <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
                         {% if ins.webpage %}
@@ -178,46 +162,40 @@ layout: default
                         <p>{{ins.name}}</p>
                         {% endif %}
                     </div>
-                    {% endfor %}
                 </div>
 
 
                 <div class="profile-pic-gallary">
-                    <h2>Chief Teaching Assistant</h2>
-                    {% for ta in site.data.people.ChiefTeachingAssistant %}
+                    {% ins = site.data.people.instructor[7] %}
                     <div class="image--cover-container">
-                        <img src="{{ta.profile_pic | prepend: site.baseurl }}" class="image--cover">
-                        {% if ta.webpage %}
-                        <p><a href="{{ ta.webpage }}">{{ta.name}}</a></p>
+                        <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                        {% if ins.webpage %}
+                        <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
                         {% else %}
-                        <p>{{ta.name}}</p>
+                        <p>{{ins.name}}</p>
                         {% endif %}
                     </div>
-                    {% endfor %}
                 </div>
 
 
 
-                <div style="width:70%; float: left">
-                    <div class="profile-pic-gallary">
-                        <h2>Chief Project Referee</h2>
-                        {% for ins in site.data.people.Chief_Project_Referee%}
-                        <div class="image--cover-container">
-                            <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
-                            {% if ins.webpage %}
-                            <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
-                            {% else %}
-                            <p>{{ins.name}}</p>
-                            {% endif %}
-                        </div>
-                        {% endfor %}
+                <div class="profile-pic-gallary">
+                    {% ins = site.data.people.instructor[8] %}
+                    <div class="image--cover-container">
+                        <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                        {% if ins.webpage %}
+                        <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
+                        {% else %}
+                        <p>{{ins.name}}</p>
+                        {% endif %}
                     </div>
                 </div>
             </div>
+
+
             <div>
                 <div class="profile-pic-gallary">
-                    <h2>Instructor</h2>
-                    {% for ins in site.data.people.instructor %}
+                    {% ins = site.data.people.instructor[9] %}
                     <div class="image--cover-container">
                         <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
                         {% if ins.webpage %}
@@ -226,13 +204,11 @@ layout: default
                         <p>{{ins.name}}</p>
                         {% endif %}
                     </div>
-                    {% endfor %}
                 </div>
 
 
                 <div class="profile-pic-gallary">
-                    <h2>Chief Project Referee</h2>
-                    {% for ins in site.data.people.Chief_Project_Referee%}
+                    {% ins = site.data.people.instructor[10] %}
                     <div class="image--cover-container">
                         <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
                         {% if ins.webpage %}
@@ -241,46 +217,40 @@ layout: default
                         <p>{{ins.name}}</p>
                         {% endif %}
                     </div>
-                    {% endfor %}
                 </div>
 
 
                 <div class="profile-pic-gallary">
-                    <h2>Chief Teaching Assistant</h2>
-                    {% for ta in site.data.people.ChiefTeachingAssistant %}
+                    {% ins = site.data.people.instructor[11] %}
                     <div class="image--cover-container">
-                        <img src="{{ta.profile_pic | prepend: site.baseurl }}" class="image--cover">
-                        {% if ta.webpage %}
-                        <p><a href="{{ ta.webpage }}">{{ta.name}}</a></p>
+                        <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                        {% if ins.webpage %}
+                        <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
                         {% else %}
-                        <p>{{ta.name}}</p>
+                        <p>{{ins.name}}</p>
                         {% endif %}
                     </div>
-                    {% endfor %}
                 </div>
 
 
 
-                <div style="width:70%; float: left">
-                    <div class="profile-pic-gallary">
-                        <h2>Chief Project Referee</h2>
-                        {% for ins in site.data.people.Chief_Project_Referee%}
-                        <div class="image--cover-container">
-                            <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
-                            {% if ins.webpage %}
-                            <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
-                            {% else %}
-                            <p>{{ins.name}}</p>
-                            {% endif %}
-                        </div>
-                        {% endfor %}
+                <div class="profile-pic-gallary">
+                    {% ins = site.data.people.instructor[12] %}
+                    <div class="image--cover-container">
+                        <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                        {% if ins.webpage %}
+                        <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
+                        {% else %}
+                        <p>{{ins.name}}</p>
+                        {% endif %}
                     </div>
                 </div>
             </div>
+
+
             <div>
                 <div class="profile-pic-gallary">
-                    <h2>Instructor</h2>
-                    {% for ins in site.data.people.instructor %}
+                    {% ins = site.data.people.instructor[13] %}
                     <div class="image--cover-container">
                         <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
                         {% if ins.webpage %}
@@ -289,13 +259,11 @@ layout: default
                         <p>{{ins.name}}</p>
                         {% endif %}
                     </div>
-                    {% endfor %}
                 </div>
 
 
                 <div class="profile-pic-gallary">
-                    <h2>Chief Project Referee</h2>
-                    {% for ins in site.data.people.Chief_Project_Referee%}
+                    {% ins = site.data.people.instructor[14] %}
                     <div class="image--cover-container">
                         <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
                         {% if ins.webpage %}
@@ -304,41 +272,35 @@ layout: default
                         <p>{{ins.name}}</p>
                         {% endif %}
                     </div>
-                    {% endfor %}
                 </div>
 
 
                 <div class="profile-pic-gallary">
-                    <h2>Chief Teaching Assistant</h2>
-                    {% for ta in site.data.people.ChiefTeachingAssistant %}
+                    {% ins = site.data.people.instructor[15] %}
                     <div class="image--cover-container">
-                        <img src="{{ta.profile_pic | prepend: site.baseurl }}" class="image--cover">
-                        {% if ta.webpage %}
-                        <p><a href="{{ ta.webpage }}">{{ta.name}}</a></p>
+                        <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                        {% if ins.webpage %}
+                        <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
                         {% else %}
-                        <p>{{ta.name}}</p>
+                        <p>{{ins.name}}</p>
                         {% endif %}
                     </div>
-                    {% endfor %}
                 </div>
 
 
-
-                <div style="width:70%; float: left">
-                    <div class="profile-pic-gallary">
-                        <h2>Chief Project Referee</h2>
-                        {% for ins in site.data.people.Chief_Project_Referee%}
-                        <div class="image--cover-container">
-                            <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
-                            {% if ins.webpage %}
-                            <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
-                            {% else %}
-                            <p>{{ins.name}}</p>
-                            {% endif %}
-                        </div>
-                        {% endfor %}
+                <div class="profile-pic-gallary">
+                    {% ins = site.data.people.instructor[16] %}
+                    <div class="image--cover-container">
+                        <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                        {% if ins.webpage %}
+                        <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
+                        {% else %}
+                        <p>{{ins.name}}</p>
+                        {% endif %}
                     </div>
                 </div>
+
+
             </div>
         </div>
     </div>
