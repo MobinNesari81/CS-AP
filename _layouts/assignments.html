@@ -4,7 +4,25 @@ layout: page
 
 {{ content }}
 <ul id="archive">
-{% for asg in site.assignments %}
+      <li class="archivepoturl" style="background: transparent">
+            <span><a href="/CS-AP/_assignments/01_sample_assignment">First Assignment</a></span>
+            <strong style="font-size:100%; font-family: 'Titillium Web', sans-serif; float:right">
+                  <a title="Download problems (pdf)" href="https://google.com"><i class="fas fa-file-pdf"></i></a> 
+            </strong> 
+      </li>
+      <li class="archivepoturl" style="background: transparent">
+            <span><a href="/CS-AP/_assignments/02_sample_assignment">Second Assignment</a></span>
+            <strong style="font-size:100%; font-family: 'Titillium Web', sans-serif; float:right">
+                  <a title="Download problems (pdf)" href="https://google.com"><i class="fas fa-file-pdf"></i></a> 
+            </strong> 
+      </li>
+      <li class="archivepoturl" style="background: transparent">
+            <span><a href="/CS-AP/_assignments/03_sample_assignment">Third Assignment</a></span>
+            <strong style="font-size:100%; font-family: 'Titillium Web', sans-serif; float:right">
+                  <a title="Download problems (pdf)" href="https://google.com"><i class="fas fa-file-pdf"></i></a> 
+            </strong> 
+      </li>
+<!-- {% for asg in site.assignments %}
       <li class="archiveposturl" style="background: transparent">
             <span><a href="{{ asg.url | prepend: site.baseurl}}">{{ asg.title }}</a></span>
             <strong style="font-size:100%; font-family: 'Titillium Web', sans-serif; float:right">
@@ -14,5 +32,5 @@ layout: page
                   {% endif %}
             </strong> 
       </li>
-{% endfor %}
+{% endfor %} -->
 </ul>
