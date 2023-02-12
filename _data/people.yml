@@ -5,7 +5,7 @@ instructor:
 
 
 Chief_Project_Referee:
-  - name: Arsham Gholamzadeh Khoee
+  - name: Arsham Gholamzadeh
     profile_pic: /_images/pp/arsham.jpeg
     webpage: https://www.linkedin.com/in/arsham-khoee?originalSubdomain=ir
 
@@ -19,8 +19,8 @@ teaching_assistants:
   - name: Mahdi Ahmadi
     profile_pic: /_images/pp/mahdi.jpg
 
-  - name: Mohammad Mehdi Begmaz
-    profile_pic: /_images/pp/donkey.jpg
+  - name: Hossein Zarrabi
+    profile_pic: /_images/pp/hossein.jpg
 
   - name: Amirhossein Karami
     profile_pic: /_images/pp/Blank.png
@@ -28,8 +28,8 @@ teaching_assistants:
   - name: Alireza Afroozi
     profile_pic: /_images/pp/afroozi.jpg
 
-  - name: Hossein Zarrabi
-    profile_pic: /_images/pp/hossein.jpg
+  - name: Mohammad Mehdi Begmaz
+    profile_pic: /_images/pp/donkey.jpg
 
   - name: Mir Mahan Madani
     profile_pic: /_images/pp/mahan.jpg
@@ -40,11 +40,14 @@ teaching_assistants:
   - name: Reza Mosavi
     profile_pic: /_images/pp/Blank.png
 
+  - name: Alireza Rahmati
+    profile_pic: /_images/pp/rahmati.jpg
+
   - name: Mohammad Rouintan
     profile_pic: /_images/pp/mamad.jpg
 
-  - name: Alireza Rahmati
-    profile_pic: /_images/pp/rahmati.jpg
+  - name: Diba Elahi
+    profile_pic: /_images/pp/diba.jpg
 
   - name: Alireza Gharavi
     profile_pic: /_images/pp/gharavi.jpg
@@ -52,8 +55,9 @@ teaching_assistants:
   - name: Farbod Khoramvatan
     profile_pic: /_images/pp/farbod.jpg
 
-  - name: Diba Elahi
-    profile_pic: /_images/pp/diba.jpg
+  - name: Alireza Rahmati
+    profile_pic: /_images/pp/rahmati.jpg
+
 
   - name: Parnia Varzdar
     profile_pic: /_images/pp/Blank.png
