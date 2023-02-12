@@ -16,50 +16,50 @@ ChiefTeachingAssistant:
 
 
 teaching_assistants:
+  - name: Mahdi Ahmadi
+    profile_pic: /_images/pp/mahdi.png
+
   - name: Mohammad Mehdi Begmaz
-    profile_pic: /_images/pp/Blank.png
+    profile_pic: /_images/pp/donkey.png
 
   - name: Amirhossein Karami
     profile_pic: /_images/pp/Blank.png
 
   - name: Alireza Afroozi
-    profile_pic: /_images/pp/Blank.png
+    profile_pic: /_images/pp/afroozi.png
 
   - name: Hossein Zarrabi
-    profile_pic: /_images/pp/Blank.png
+    profile_pic: /_images/pp/hossein.png
 
   - name: Mir Mahan Madani
-    profile_pic: /_images/pp/Blank.png
+    profile_pic: /_images/pp/mahan.png
 
   - name: Parmida Jabbari
-    profile_pic: /_images/pp/Blank.png
-
-  - name: Mahdi Ahmadi
     profile_pic: /_images/pp/Blank.png
 
   - name: Reza Mosavi
     profile_pic: /_images/pp/Blank.png
 
   - name: Mohammad Rouintan
-    profile_pic: /_images/pp/Blank.png
+    profile_pic: /_images/pp/mamad.png
 
   - name: Alireza Rahmati
-    profile_pic: /_images/pp/Blank.png
+    profile_pic: /_images/pp/rahmati.png
 
   - name: Alireza Gharavi
-    profile_pic: /_images/pp/Blank.png
+    profile_pic: /_images/pp/gharavi.png
 
   - name: Farbod Khoramvatan
-    profile_pic: /_images/pp/Blank.png
+    profile_pic: /_images/pp/farbod.png
 
   - name: Diba Elahi
-    profile_pic: /_images/pp/Blank.png
+    profile_pic: /_images/pp/diba.png
 
   - name: Parnia Varzdar
     profile_pic: /_images/pp/Blank.png
 
   - name: Aryan Neyzebaz
-    profile_pic: /_images/pp/Blank.png
+    profile_pic: /_images/pp/aryan.png
 
   - name: Pouyan Oskouhi
-    profile_pic: /_images/pp/Blank.png
+    profile_pic: /_images/pp/pooyan.png
