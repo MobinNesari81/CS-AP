@@ -525,19 +525,16 @@ a.tosu {
 }
 
 #leftbox {
-    float:left;
     width:25%;
     height:280px;
     text-align: center;
 }
 #middlebox{
-    float:left;
     width:40%;
     height:280px;
     text-align: center;
 }
 #rightbox{
-    float:left;
     width:25%;
     height:280px;
     text-align: center;
@@ -548,13 +545,20 @@ a.tosu {
 // }
 .ta-box{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    align-content: center;
 
 }
 
 .ta-full-box{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#boxes{
+    display: flex;
+    justify-content: space-between;
+    font-size: .9rem!important;
 }
