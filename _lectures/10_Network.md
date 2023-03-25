@@ -7,6 +7,9 @@ thumbnail: /static_files/thumbnails/network.png
 links: 
     - url: /static_files/presentations/Lecture_12.pdf
       name: Slides
+
+    - url: /static_files/Codes/Network.zip
+      name: Sample Codes
 ---
 **Suggested Readings:**
 - [w3schools](https://www.w3schools.com/java/default.asp)

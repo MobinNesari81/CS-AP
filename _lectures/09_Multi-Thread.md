@@ -7,6 +7,9 @@ thumbnail: /static_files/thumbnails/Multi-Thread.png
 links: 
     - url: /static_files/presentations/Lecture_11.pdf
       name: Slides
+
+    - url: /static_files/Codes/Multithread.zip
+      name: Sample Codes
 ---
 **Suggested Readings:**
 - [w3schools](https://www.w3schools.com/java/default.asp)

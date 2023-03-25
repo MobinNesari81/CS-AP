@@ -7,6 +7,9 @@ thumbnail: /static_files/thumbnails/OOP.png
 links: 
     - url: /static_files/presentations/Lecture_07.pdf
       name: Slides
+
+    - url: /static_files/Codes/OOP.zip
+      name: Sample Codes
 ---
 **Suggested Readings:**
 - [w3schools](https://www.w3schools.com/java/default.asp)
