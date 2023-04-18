@@ -7,6 +7,7 @@ thumbnail: /static_files/thumbnails/OOP.png
 links: 
     - url: /static_files/presentations/Lecture_08.pdf
       name: Slides
+    
     - url: /static_files/Codes/Lecture07_Samples.zip
     name: Sample Codes
 ---
