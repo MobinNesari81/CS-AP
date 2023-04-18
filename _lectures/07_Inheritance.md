@@ -9,7 +9,7 @@ links:
       name: Slides
     
     - url: /static_files/Codes/Lecture07_Samples.zip
-    name: Sample Codes
+      name: Sample Codes
 ---
 **Suggested Readings:**
 - [w3schools](https://www.w3schools.com/java/default.asp)
